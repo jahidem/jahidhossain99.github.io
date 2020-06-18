@@ -7,7 +7,18 @@ body{
     font-family: sans-serif;
     background-color: rgb(31, 31, 46);
 }
-
+h1,h2,h3,h4{
+    font-family: sriracha;
+    margin: 10px;
+    font-size: 40px;
+    color: gainsboro;
+}
+a,p{
+    font-family: sriracha;
+    margin: 40px;
+    font-size: 20px;
+    color: rgb(194, 168, 168); 
+}
 .small{
     width: 240px;
     height: 240px;
@@ -35,7 +46,7 @@ nav{
 }
 
 .nav-links li a{
-    color: gainsboro;
+    color: rgb(95, 178, 206);
     text-decoration: none;
     font-size: 20px;
 }
@@ -46,12 +57,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.landing h1{
-    font-family: sriracha;
-    margin: 10px;
-    font-size: 40px;
-    color: rgb(218, 214, 214);
-}
+
 .landing2{
     width: 60%;
     height: 5%;
@@ -59,18 +65,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.landing2 p{
-    font-family: sriracha;
-    margin: 40px;
-    font-size: 20px;
-    color: rgb(218, 214, 214);
-}
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
    .line{
        width: 30px;
        height: 4px;
-       background-color: gainsboro;
+       background-color:rgb(95, 178, 206);
        margin: 5px;
    }
    nav{
@@ -97,8 +97,8 @@ nav{
    }
   
     .nav-links.open{
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(1000px at 90% -10%);
+        clip-path: circle(1400px at 90% -10%);
+        -webkit-clip-path: circle(1400px at 90% -10%);
         pointer-events: all;
     }
     .landing{
