@@ -7,6 +7,7 @@ body{
     font-family: sans-serif;
     background-color: rgb(31, 31, 46);
 }
+
 .small{
     width: 240px;
     height: 240px;
@@ -20,7 +21,7 @@ nav{
     background-color: rgb(0, 0, 0);
     height: 10vh;
 }
-.nav-links{
+.nav-links {
     display:flex;
     list-style: none;
     width: 50%;
@@ -29,6 +30,10 @@ nav{
     align-items: center;
     margin-left: auto;
 }
+#chk{
+    opacity: 0;
+}
+
 .nav-links li a{
     color: gainsboro;
     text-decoration: none;
@@ -43,10 +48,24 @@ nav{
 }
 .landing h1{
     font-family: sriracha;
-    margin: 100px;
+    margin: 10px;
     font-size: 40px;
     color: rgb(218, 214, 214);
 }
+.landing2{
+    width: 60%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing2 p{
+    font-family: sriracha;
+    margin: 40px;
+    font-size: 20px;
+    color: rgb(218, 214, 214);
+}
+
 @media screen and (max-width: 768px){
    .line{
        width: 30px;
@@ -71,8 +90,8 @@ nav{
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path: circle(100px at 90% -10%);
+        clip-path: circle(1px at 90% -10%);
+        -webkit-clip-path: circle(1px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
    }
@@ -90,7 +109,7 @@ nav{
         opacity: 0;
     }
     .nav-links li a{
-        font-size: 30px;
+        font-size: 25px;
     }
     .nav-links li:nth-child(1){
         transition:  all 0.5s ease 0.2s;
@@ -103,4 +122,13 @@ nav{
     }
     li.fade{ 
         opacity: 1;}
+
+    #chk{
+            opacity: 1;
+            width: 90px;
+            height: 100px;
+            margin-right: auto;
+        margin-top: -50px;
+            padding-left: 19px;
+    }
 }
