@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: sans-serif;
     background-color:#151727;
-    background-image: url("../images/bak1.jpg");
+    background-image: url("../images/mars.png");
+     background-position: row;
+  background-repeat: repeat;
+  background-size: cover;
+   
+    
 }
 h1,h2,h3,h4{
     font-family: sriracha;
@@ -29,9 +35,9 @@ a,p{
     border-radius: 150px;
 }
 nav{
-    background-color: rgba(96, 225, 231, 0.3);
+    background-color: rgba(8, 73, 80, 0.7);
     height: 8vh;
-    border-radius: 11px;
+    border-radius: 15px;
 }
 .nav-links {
     display:flex;
@@ -54,7 +60,7 @@ nav{
     text-transform: uppercase;
 }
 nav ul a:hover{
-    color: rgb(141, 14, 73);
+    color: rgb(204, 29, 111);
     transition: .8s;
 }
 .landing{
@@ -99,7 +105,7 @@ nav ul a:hover{
 }
     .nav-links{
        position: fixed;
-        background-color:rgba(10, 74, 77,.96);
+        background-color:rgba(8, 73, 80, 0.9);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -138,10 +144,10 @@ nav ul a:hover{
 
     #chk{  
             opacity: .9;
-            width: 90px;
-            height: 100px;
+            width: 70px;
+            height: 90px;
             margin-right: auto;
-        margin-top: -80px;
+        margin-top: -70px;
             padding-left: 1px;
     }
     .mobile-img{
