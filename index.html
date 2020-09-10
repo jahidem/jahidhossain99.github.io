@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:wght@600&family=Sriracha&display=swap" rel="stylesheet"><title>Meow</title>
-</head>
-<body>
-    <nav>
-        <div class="ham">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
 
-        
-        <ul class="nav-links">
-            <img id="chk" src="./images/logo.png">
-            <li><a href="./html/project.html">My Toy Projects</a></li>
-            <li><a href="./html/steps.html">My Tiny Steps</a></li>
-            <li><a href="./html/about.html">About me</a></li>
-        </ul>
-    </nav>
-    <section class="landing">
-        <img class="small" src="images/cut.jpg">
-    
-    <h1>Hi there, I'm Billi.</h1>
-</section>
-    <script src="./script/app.js"></script>
-    <section class="landing2">
-        <p>
-            I like to explore the fascinating world of CS.
-            In my free time I like to lick my paw and of course I like Tuna!
-            This is my catty website.you're welcome here to explore my projects.
-        </p>
-    </section>
-
-
-</body>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="preloader.gif" alt="preloader" class="preloader__item" />
+    </div>
+    <!-- header -->
+    <header>
+      <video controls muted autoplay loop class="video-container">
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+      <h1>video project</h1>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>
+          play
+        </span>
+        <span>
+          pause
+        </span>
+        <span class="switch"></span>
+      </button>
+    </header>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
