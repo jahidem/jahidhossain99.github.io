@@ -6,8 +6,9 @@
 
 body{
     font-family: sans-serif;
-    background-color:#151727;
-    background-image: url("../images/mars.jpg");
+	background-color:#3E3E42;  
+/*background-color:#151727;
+    /*background-image: url("../images/mars.jpeg");*/
      background-position: row;
   background-repeat: repeat;
   background-size: cover;
